@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro&display=swap');
+
+    /* https://assets.website-files.com/5c898b1d37266625ec969a97/5d1a683945dd8900108648db_capa_pmu-grad.jpg */
+    /* https://assets.website-files.com/5c898b1d37266625ec969a97/5cc86e71ea28d87b5e98a204_scott-goodwill-408543%203-gradi.jpg */
+    /* https://assets.website-files.com/5c898b1d37266625ec969a97/5d1a62fd45dd8967e9861c83_christopher-campbell-40367-unsplash.jpg */
+
+    /*---body---*/
+
+    body {
+        margin:0; 
+        padding:0;
+    }
+    
+
+/*---header---*/
+
+#header {
+    background:#333;
+    margin-top: -35px;
+}
+    #header h5 {
+    color:#fff;
+    text-align: justify;
+    font-family: 'Gilda';
+    font-size: 20px;
+    margin-left: 25px;
+    
+        
+    }
+
+    /*---main---*/
+
+ main {
+    
+    text-align: center;
+    font-family:'Gilda Display';
+    color:#fff;
+    border-radius: 7px;
+    background-image: linear-gradient(to top right, #8507e1, #3dc8d5);
+    margin-top:200px;
+    margin-left:750px;
+    margin-right:750px;
+    margin-bottom: 220px;
+    padding: 15px;
+
+    }
+
+    main h2{
+        font-size: 70px;
+    }
+
+    main:hover{
+        background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5);
+    }
+
+/*---nan---*/
+
+ #nav>ul>li {
+        list-style-type: none;
+        text-align:right;
+        font-family:'Gilda';
+        color:white;
+        margin:10px 20px;
+        font-size:22px;
+        
+    }
+
+     #nav ul li a{
+        color:#ccc;
+        text-decoration:none;
+    }
+
+    #nav ul li a:hover {
+        color:white;
+    }
+
+    /*---section alpha---*/
+
+    .alpha {
+       padding:20px 8%;
+       margin-top:250px;
+    }
+
+
+.alpha h1 {
+    font-size: 80px;
+    margin-top: -25px;
+}
+       
+.alpha h5 {
+
+    font-size:15px;
+    text-align: left;
+    font-family: 'MavenPro', sans-serif;
+    font-weight: normal;
+}
+        
+        
+/*---section beta---*/
+    
+
+.beta {
+    padding:20px 8%;
+    margin-top:180px;
+ }
+
+ .beta img {
+     width:50%;
+     margin-left: 40px;
+     border-radius: 5px;
+     
+ }
+
+ 
+.beta h1 {
+    margin-left: 40px;
+    border-radius: 5px;
+    font-size:30px;
+}
+
+.beta h4 {
+    margin-left: 40px;
+    border-radius: 5px;
+    
+}
+
+
+/*---section charlie---*/
+
+
+.charlie {
+    padding:20px 8%;
+    margin-top:180px;
+}
+
+.charlie img {
+    width:60%;
+    margin-left: -100px;
+    border-radius: 5px;
+}
+
+.charlie h1 {
+    margin-left: -100px;
+    border-radius: 5px;
+    
+}
+
+.charlie h4 {
+    margin-left: -100px;
+    border-radius: 5px;
+}
+
+/*---section delta---*/
+
+.delta {
+    padding:20px 8%;
+    margin-top: 140px;
+}
+
+.delta img {
+    width:60%;
+    margin-left: -100px;
+    border-radius: 5px;
+}
+
+.delta h1 {
+    margin-left: -100px;
+    border-radius: 5px;
+    
+}
+
+.delta h4 {
+    margin-left: -100px;
+    border-radius: 5px;
+}
